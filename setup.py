@@ -10,7 +10,7 @@ setup(name="blotch",
       description="Publication Quality Plotting Utilities for Machine Learning",
       long_description=long_description,
       version=version,
-      url="https://github.com/geyang/alice",
+      url="https://github.com/geyang/blotch",
       author="Ge Yang",
       author_email="ge.ike.yang@gmail.com",
       license=None,
@@ -22,7 +22,4 @@ setup(name="blotch",
       ],
       packages=find_packages(),
       install_requires=[],
-      entry_points={
-          'console_scripts': ['alice=alice.cli:main'],
-      }
       )
